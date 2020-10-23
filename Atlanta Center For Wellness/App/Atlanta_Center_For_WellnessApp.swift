@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct Atlanta_Center_For_WellnessApp: App {
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+      WindowGroup {
+              ContentView()
+      }
     }
 }
+
+  struct FructusApp_Previews: PreviewProvider {
+      static var previews: some View {
+          ContentView()
+      }
+  }
+

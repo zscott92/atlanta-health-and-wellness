@@ -11,6 +11,11 @@
 		BF54B1DD25426038001B070D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1DC25426038001B070D /* ContentView.swift */; };
 		BF54B1DF25426039001B070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54B1DE25426039001B070D /* Assets.xcassets */; };
 		BF54B1E225426039001B070D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54B1E125426039001B070D /* Preview Assets.xcassets */; };
+		BF54B1F425426673001B070D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1F325426673001B070D /* OnboardingView.swift */; };
+		BF54B1FA25426727001B070D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1F925426727001B070D /* MenuView.swift */; };
+		BF54B20225428EE4001B070D /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20125428EE4001B070D /* EmployeeData.swift */; };
+		BF54B20725428F65001B070D /* FoundersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20625428F65001B070D /* FoundersData.swift */; };
+		BF54B20B2542930E001B070D /* FoundersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20A2542930E001B070D /* FoundersModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		BF54B1DE25426039001B070D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF54B1E125426039001B070D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF54B1E325426039001B070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF54B1F325426673001B070D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BF54B1F925426727001B070D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BF54B20125428EE4001B070D /* EmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeData.swift; sourceTree = "<group>"; };
+		BF54B20625428F65001B070D /* FoundersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersData.swift; sourceTree = "<group>"; };
+		BF54B20A2542930E001B070D /* FoundersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,10 @@
 		BF54B1D925426038001B070D /* Atlanta Center For Wellness */ = {
 			isa = PBXGroup;
 			children = (
-				BF54B1DA25426038001B070D /* Atlanta_Center_For_WellnessApp.swift */,
-				BF54B1DC25426038001B070D /* ContentView.swift */,
+				BF54B1EA2542604C001B070D /* App */,
+				BF54B1F825426702001B070D /* Views */,
+				BF54B209254292F7001B070D /* Models */,
+				BF54B20025428E7F001B070D /* Data */,
 				BF54B1DE25426039001B070D /* Assets.xcassets */,
 				BF54B1E325426039001B070D /* Info.plist */,
 				BF54B1E025426039001B070D /* Preview Content */,
@@ -67,6 +79,41 @@
 				BF54B1E125426039001B070D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF54B1EA2542604C001B070D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF54B1DC25426038001B070D /* ContentView.swift */,
+				BF54B1DA25426038001B070D /* Atlanta_Center_For_WellnessApp.swift */,
+				BF54B1F325426673001B070D /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BF54B1F825426702001B070D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF54B1F925426727001B070D /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF54B20025428E7F001B070D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BF54B20125428EE4001B070D /* EmployeeData.swift */,
+				BF54B20625428F65001B070D /* FoundersData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BF54B209254292F7001B070D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF54B20A2542930E001B070D /* FoundersModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF54B20225428EE4001B070D /* EmployeeData.swift in Sources */,
+				BF54B1FA25426727001B070D /* MenuView.swift in Sources */,
+				BF54B20B2542930E001B070D /* FoundersModels.swift in Sources */,
+				BF54B1F425426673001B070D /* OnboardingView.swift in Sources */,
 				BF54B1DD25426038001B070D /* ContentView.swift in Sources */,
 				BF54B1DB25426038001B070D /* Atlanta_Center_For_WellnessApp.swift in Sources */,
+				BF54B20725428F65001B070D /* FoundersData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
