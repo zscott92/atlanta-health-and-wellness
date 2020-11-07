@@ -14,11 +14,13 @@ struct Founders: Identifiable {
     var name: String
     var credentials: String
     var role: String
+    var image: String
     
-    init(name: String, credentials: String, role: String) {
+    init(name: String, credentials: String, role: String, image: String) {
        self.name = name
        self.credentials = credentials
        self.role = role
+        self.image = image
      }
     
 }

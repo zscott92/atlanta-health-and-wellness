@@ -6,18 +6,30 @@
 //
 
 import SwiftUI
+import UIKit
+import Firebase
 
-@main
-struct Atlanta_Center_For_WellnessApp: App {
+struct Atlanta_Center_For_WellnessApp: App{
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
-      WindowGroup {
+        WindowGroup {
               ContentView()
+        }
       }
+    }
+@UIApplicationMain
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+    didFinishLaunchingWithOptions
+        launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        print("setting up firebase")
+        FirebaseApp.configure()
+        return true
     }
 }
 
-  struct FructusApp_Previews: PreviewProvider {
+  struct Atlanta_Center_For_WellnessApp_Previews: PreviewProvider {
       static var previews: some View {
           ContentView()
       }

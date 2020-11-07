@@ -3,33 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE1FAC756075053491E9784 /* Pods_Atlanta_Center_For_Wellness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416140EC080F194FAFF8E2FE /* Pods_Atlanta_Center_For_Wellness.framework */; };
 		BF54B1DB25426038001B070D /* Atlanta_Center_For_WellnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1DA25426038001B070D /* Atlanta_Center_For_WellnessApp.swift */; };
 		BF54B1DD25426038001B070D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1DC25426038001B070D /* ContentView.swift */; };
 		BF54B1DF25426039001B070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54B1DE25426039001B070D /* Assets.xcassets */; };
 		BF54B1E225426039001B070D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54B1E125426039001B070D /* Preview Assets.xcassets */; };
-		BF54B1F425426673001B070D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1F325426673001B070D /* OnboardingView.swift */; };
-		BF54B1FA25426727001B070D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B1F925426727001B070D /* MenuView.swift */; };
 		BF54B20225428EE4001B070D /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20125428EE4001B070D /* EmployeeData.swift */; };
 		BF54B20725428F65001B070D /* FoundersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20625428F65001B070D /* FoundersData.swift */; };
 		BF54B20B2542930E001B070D /* FoundersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B20A2542930E001B070D /* FoundersModels.swift */; };
+		BF5DD4812555116600393D89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DD4802555116600393D89 /* HomeView.swift */; };
+		BF5DD48B25551C7400393D89 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DD48A25551C7400393D89 /* AboutUsView.swift */; };
+		BF81626625555321006D7740 /* CliniciansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81626525555321006D7740 /* CliniciansView.swift */; };
+		BF816269255554C8006D7740 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF816268255554C8006D7740 /* ServicesView.swift */; };
+		BF81626C25555521006D7740 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81626B25555521006D7740 /* GroupsView.swift */; };
+		BF81626F2555553F006D7740 /* WorkshopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81626E2555553F006D7740 /* WorkshopsView.swift */; };
+		BF81627225555553006D7740 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81627125555553006D7740 /* CalendarView.swift */; };
+		BF9A3E6725559D8400B37254 /* EmployeeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A3E6625559D8400B37254 /* EmployeeModels.swift */; };
+		BF9A3E6D2555B6E500B37254 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A3E6C2555B6E500B37254 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128B7EB930B5510682BCD181 /* Pods-Atlanta Center For Wellness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlanta Center For Wellness.release.xcconfig"; path = "Target Support Files/Pods-Atlanta Center For Wellness/Pods-Atlanta Center For Wellness.release.xcconfig"; sourceTree = "<group>"; };
+		416140EC080F194FAFF8E2FE /* Pods_Atlanta_Center_For_Wellness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atlanta_Center_For_Wellness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6BB44FE3CEC7CD8D6FD75 /* Pods-Atlanta Center For Wellness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atlanta Center For Wellness.debug.xcconfig"; path = "Target Support Files/Pods-Atlanta Center For Wellness/Pods-Atlanta Center For Wellness.debug.xcconfig"; sourceTree = "<group>"; };
 		BF54B1D725426038001B070D /* Atlanta Center For Wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlanta Center For Wellness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF54B1DA25426038001B070D /* Atlanta_Center_For_WellnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlanta_Center_For_WellnessApp.swift; sourceTree = "<group>"; };
 		BF54B1DC25426038001B070D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF54B1DE25426039001B070D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF54B1E125426039001B070D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF54B1E325426039001B070D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF54B1F325426673001B070D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		BF54B1F925426727001B070D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		BF54B20125428EE4001B070D /* EmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeData.swift; sourceTree = "<group>"; };
 		BF54B20625428F65001B070D /* FoundersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersData.swift; sourceTree = "<group>"; };
 		BF54B20A2542930E001B070D /* FoundersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersModels.swift; sourceTree = "<group>"; };
+		BF5DD4802555116600393D89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF5DD48A25551C7400393D89 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		BF81626525555321006D7740 /* CliniciansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CliniciansView.swift; sourceTree = "<group>"; };
+		BF816268255554C8006D7740 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		BF81626B25555521006D7740 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		BF81626E2555553F006D7740 /* WorkshopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopsView.swift; sourceTree = "<group>"; };
+		BF81627125555553006D7740 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		BF9A3E6625559D8400B37254 /* EmployeeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModels.swift; sourceTree = "<group>"; };
+		BF9A3E6C2555B6E500B37254 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE1FAC756075053491E9784 /* Pods_Atlanta_Center_For_Wellness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B83EAAB3F7BA6D7E84824653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6BB44FE3CEC7CD8D6FD75 /* Pods-Atlanta Center For Wellness.debug.xcconfig */,
+				128B7EB930B5510682BCD181 /* Pods-Atlanta Center For Wellness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF54B1CE25426038001B070D = {
 			isa = PBXGroup;
 			children = (
 				BF54B1D925426038001B070D /* Atlanta Center For Wellness */,
 				BF54B1D825426038001B070D /* Products */,
+				B83EAAB3F7BA6D7E84824653 /* Pods */,
+				C5076E93ADD0F93E35E07104 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				BF54B1EA2542604C001B070D /* App */,
-				BF54B1F825426702001B070D /* Views */,
+				BF9A3E6B2555B6C600B37254 /* Components */,
 				BF54B209254292F7001B070D /* Models */,
 				BF54B20025428E7F001B070D /* Data */,
 				BF54B1DE25426039001B070D /* Assets.xcassets */,
@@ -84,19 +114,18 @@
 		BF54B1EA2542604C001B070D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BF54B1DC25426038001B070D /* ContentView.swift */,
 				BF54B1DA25426038001B070D /* Atlanta_Center_For_WellnessApp.swift */,
-				BF54B1F325426673001B070D /* OnboardingView.swift */,
+				BF54B1DC25426038001B070D /* ContentView.swift */,
+				BF5DD4802555116600393D89 /* HomeView.swift */,
+				BF5DD48A25551C7400393D89 /* AboutUsView.swift */,
+				BF81626525555321006D7740 /* CliniciansView.swift */,
+				BF816268255554C8006D7740 /* ServicesView.swift */,
+				BF81626B25555521006D7740 /* GroupsView.swift */,
+				BF81626E2555553F006D7740 /* WorkshopsView.swift */,
+				BF81627125555553006D7740 /* CalendarView.swift */,
+				BF9A3E6C2555B6E500B37254 /* LocationView.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		BF54B1F825426702001B070D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BF54B1F925426727001B070D /* MenuView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		BF54B20025428E7F001B070D /* Data */ = {
@@ -112,8 +141,24 @@
 			isa = PBXGroup;
 			children = (
 				BF54B20A2542930E001B070D /* FoundersModels.swift */,
+				BF9A3E6625559D8400B37254 /* EmployeeModels.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BF9A3E6B2555B6C600B37254 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C5076E93ADD0F93E35E07104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416140EC080F194FAFF8E2FE /* Pods_Atlanta_Center_For_Wellness.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF54B1E625426039001B070D /* Build configuration list for PBXNativeTarget "Atlanta Center For Wellness" */;
 			buildPhases = (
+				3DAB712D4FA585EB6721DE67 /* [CP] Check Pods Manifest.lock */,
 				BF54B1D325426038001B070D /* Sources */,
 				BF54B1D425426038001B070D /* Frameworks */,
 				BF54B1D525426038001B070D /* Resources */,
+				3A1320EB75252295E4F49804 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,16 +227,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A1320EB75252295E4F49804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atlanta Center For Wellness/Pods-Atlanta Center For Wellness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Atlanta Center For Wellness/Pods-Atlanta Center For Wellness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Atlanta Center For Wellness/Pods-Atlanta Center For Wellness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DAB712D4FA585EB6721DE67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atlanta Center For Wellness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF54B1D325426038001B070D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF816269255554C8006D7740 /* ServicesView.swift in Sources */,
 				BF54B20225428EE4001B070D /* EmployeeData.swift in Sources */,
-				BF54B1FA25426727001B070D /* MenuView.swift in Sources */,
+				BF81626C25555521006D7740 /* GroupsView.swift in Sources */,
+				BF81626625555321006D7740 /* CliniciansView.swift in Sources */,
+				BF81626F2555553F006D7740 /* WorkshopsView.swift in Sources */,
+				BF81627225555553006D7740 /* CalendarView.swift in Sources */,
+				BF9A3E6725559D8400B37254 /* EmployeeModels.swift in Sources */,
+				BF5DD48B25551C7400393D89 /* AboutUsView.swift in Sources */,
+				BF9A3E6D2555B6E500B37254 /* LocationView.swift in Sources */,
 				BF54B20B2542930E001B070D /* FoundersModels.swift in Sources */,
-				BF54B1F425426673001B070D /* OnboardingView.swift in Sources */,
 				BF54B1DD25426038001B070D /* ContentView.swift in Sources */,
+				BF5DD4812555116600393D89 /* HomeView.swift in Sources */,
 				BF54B1DB25426038001B070D /* Atlanta_Center_For_WellnessApp.swift in Sources */,
 				BF54B20725428F65001B070D /* FoundersData.swift in Sources */,
 			);
@@ -316,6 +412,7 @@
 		};
 		BF54B1E725426039001B070D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F6BB44FE3CEC7CD8D6FD75 /* Pods-Atlanta Center For Wellness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +426,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = "zachscott.Atlanta-Center-For-Wellness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -338,6 +436,7 @@
 		};
 		BF54B1E825426039001B070D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128B7EB930B5510682BCD181 /* Pods-Atlanta Center For Wellness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -351,6 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = "zachscott.Atlanta-Center-For-Wellness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

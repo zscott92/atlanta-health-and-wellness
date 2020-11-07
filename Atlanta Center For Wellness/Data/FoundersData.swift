@@ -11,15 +11,18 @@ let foundersData: [Founders] = [
     Founders(
         name: "Ephrat Lipton",
         credentials: "ACSW, LCSW, BCD, CEDS",
-        role: "Managing & Founding Partner"
+        role: "Managing & Founding Partner",
+        image: "ephrat"
       ),
       Founders(
         name: "GINAIR GOODWIN-McKERROW",
         credentials: "MSW, LCSW",
-        role: "Founding Partner"
+        role: "Founding Partner",
+        image: "ginair"
       ),
       Founders(
         name: "JOANNE \"JOEY\" PULLEY",
         credentials: "MS, LPC, NBCC",
-        role: "Founding Partner"
+        role: "Founding Partner",
+        image: "joey"
       )]

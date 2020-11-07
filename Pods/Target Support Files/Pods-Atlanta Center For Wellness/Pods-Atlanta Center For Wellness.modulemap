@@ -1,0 +1,6 @@
+framework module Pods_Atlanta_Center_For_Wellness {
+  umbrella header "Pods-Atlanta Center For Wellness-umbrella.h"
+
+  export *
+  module * { export * }
+}
